@@ -1,12 +1,12 @@
-{
-  lib,
-  stdenv,
-  fetchFromGitHub,
-  autoconf,
-  automake,  
-  pkg-config,
-  xcbutilxrm,
-  xorg,
+{ lib
+, stdenv
+, fetchFromGitHub
+, autoconf
+, automake
+, pkg-config
+, xcbutilxrm
+, xorg
+,
 }:
 
 stdenv.mkDerivation rec {
@@ -22,7 +22,7 @@ stdenv.mkDerivation rec {
 
   buildInputs = [
     autoconf
-    automake   
+    automake
     pkg-config
     xcbutilxrm
     xorg.xcbutil
