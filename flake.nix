@@ -21,7 +21,7 @@
         remontoire
         trawl
         i3xrocks
-        libtrawlb
+        libtrawldb
         regolith-look-extra
         i3status-rs
         sway-regolith
